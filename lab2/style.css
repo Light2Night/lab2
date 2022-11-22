@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+}
+
+
+
+.MenuColor {
+    background-color: Azure;
+}
+
+.headerMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerBlock {
+    width: 450px;
+}
+
+.headerImage {
+    height: "40px";
+}
+
+.searchColor {
+    background-color: Lavender;
+}
+
+.headerDivSearch {
+    width:600px;
+}
+
+.headerInputSearch {
+    font-size: 30px;
+    Border: none;
+    outline: none;
+}
+
+.rightBlock {
+    float: right;
+    width: 60px;
+}
+
+
+
+.leftButton {
+    float: left;
+    
+}
+
+.rightButton {
+    float: right;
+
+}
+
+.headerTextFormat {
+    text-align: center;
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    color: #495d8b;
+    margin: 25px;
+
+}
+
+
+
+.mainDiv {
+    
+}
+
+.mainDivMenu {
+    float: left;
+    width: 300px;
+    height: 1000px;
+}
+
+.WriteButton {
+    background-color: Lavender;
+    padding: 20px;
+}
+
+.FunctionalButton {
+    background-color: LavenderBlush;
+    padding: 12px;
+}
+
+.Email {
+    padding: 12px;
+    border-bottom: solid Lavender 3px;
+}
+
+.EmailText {
+    font-size: 20pt;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 60%;
+}
+
+/* DEBUG */
+/* div {
+    border: 2px solid red;
+
+} */
